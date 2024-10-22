@@ -1,0 +1,59 @@
+/* style.css */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#gameCanvas {
+    border: 2px solid white;
+    background-color: #000;
+}
+
+#score, #lives {
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+#game-over {
+    font-size: 28px;
+    color: red;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Control Panel Styling */
+.control-panel {
+    margin-top: 20px;
+}
+
+.control-panel button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.control-panel button:hover {
+    background-color: #777;
+}
