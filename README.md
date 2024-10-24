@@ -1,2 +1,2 @@
 # SHOOTING_GAME
-my first github demo
+THIS A SHOOTING GAME 🎯 
